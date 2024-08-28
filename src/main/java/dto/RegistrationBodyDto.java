@@ -10,7 +10,7 @@ import lombok.ToString;
 @Builder
 @ToString
 
-public class UserDto {
+public class RegistrationBodyDto {
 //    "username": "string",
 //            "password": "#$ZNHHt>86J),=UU} lk8<j:R6KA<+6e$f",
 //            "firstName": "string",

@@ -1,7 +1,7 @@
 package mobile_tests;
 
 import config.AppiumConfig;
-import dto.UserDto;
+import dto.RegistrationBodyDto;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import screens.SplashScreen;
@@ -12,7 +12,7 @@ public class RegistrationTests extends AppiumConfig {
     @Test
     public void registrationPositiveTest(){
         int i = new Random().nextInt(1000);
-        UserDto user = UserDto.builder()
+        RegistrationBodyDto user = RegistrationBodyDto.builder()
                 .firstName("samuel")
                 .lastName("family")
                 .username("samuel_family"+i+"@gmail.com")
