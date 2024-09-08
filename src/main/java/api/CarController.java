@@ -37,7 +37,7 @@ public class CarController implements BaseApi {
                 .thenReturn();
     }
 
-    protected Response getAllUserCarResponse(String token) {
+    public Response getAllUserCarResponse(String token) {
         return given()
 //                .contentType(ContentType.JSON)
                 .header("Authorization", token)
